@@ -92,3 +92,37 @@ body {
   a:hover {
     text-decoration: underline;
   }
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  /* set styles for the social media icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+    color: #fff;
+    background-color: #0077cc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    background-color: #005ea8;
+  }
+  
+  /* set styles for the icon labels */
+  .social-icons span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
