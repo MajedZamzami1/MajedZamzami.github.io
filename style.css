@@ -1,0 +1,94 @@
+/* global styles */
+
+/* set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* set maximum width for the content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* header styles */
+  
+  /* set background color, text color, and padding */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* set font size and margin for header text */
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* navigation menu styles */
+  
+  /* set background color and padding */
+  nav {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  /* set style for the navigation menu items */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* main content styles */
+  
+  /* set padding for the main content area */
+  main {
+    padding: 20px;
+  }
+  
+  /* set style for the page headings */
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* set style for the paragraphs */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* set style for the links */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
